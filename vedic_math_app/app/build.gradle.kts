@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.system22.protocol"
+    namespace = "com.string.ackeles"
     compileSdk = 34
 
     defaultConfig {
