@@ -1,15 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Night mode - same as day since app is already dark -->
+    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/pink_primary</item>
-        <item name="colorPrimaryDark">@color/pink_dark</item>
-        <item name="colorAccent">@color/pink_primary</item>
-        <item name="android:windowBackground">@color/background_dark</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF99CC</item>
+        <item name="colorPrimaryDark">#CC7AA3</item>
+        <item name="colorAccent">#FF99CC</item>
+    </style>
+
+    <!-- Add this new theme -->
+    <style name="Theme.WebToApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF99CC</item>
+        <item name="colorPrimaryDark">#CC7AA3</item>
+        <item name="colorAccent">#FF99CC</item>
+        <item name="android:windowBackground">#0B0B0B</item>
+        <item name="android:textColor">#F0F0F0</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:statusBarColor">@color/status_bar</item>
-        <item name="android:navigationBarColor">@color/navigation_bar</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
     </style>
 </resources>
