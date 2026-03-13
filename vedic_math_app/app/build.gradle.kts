@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.string.ackeles"
+    namespace = "com.ackeles.stringmeme"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.system22.protocol"
+        applicationId = "com.ackeles.stringmeme"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
