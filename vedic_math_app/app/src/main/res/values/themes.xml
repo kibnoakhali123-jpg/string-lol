@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- موضوع WebToApp Builder - بدون شريط عنوان -->
-    <style name="Theme.WebToApp" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- اللون الأساسي -->
-        <item name="colorPrimary">@color/webtoapp_primary</item>
-        <item name="colorPrimaryVariant">@color/webtoapp_primary_dark</item>
-        <item name="colorOnPrimary">@color/white</item>
-
-        <!-- اللون الثانوي -->
-        <item name="colorSecondary">@color/webtoapp_secondary</item>
-        <item name="colorSecondaryVariant">@color/webtoapp_secondary_dark</item>
-        <item name="colorOnSecondary">@color/white</item>
-
-        <!-- لون الخلفية -->
-        <item name="android:windowBackground">@color/white</item>
-
-        <!-- شريط الحالة -->
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-
-        <!-- تمكين الحافة الممتدة للنظام -->
-        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    <!-- Night mode - same as day since app is already dark -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_dark</item>
+        <item name="colorAccent">@color/pink_primary</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/navigation_bar</item>
     </style>
-
 </resources>
