@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- ألوان WebToApp Builder -->
-    <color name="webtoapp_primary">#3DDC84</color>
-    <color name="webtoapp_primary_dark">#2DC26B</color>
-    <color name="webtoapp_secondary">#202124</color>
-    <color name="webtoapp_secondary_dark">#1A1A1A</color>
-
-    <!-- الألوان الأساسية -->
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
-
-    <!-- ألوان الخلفية -->
-    <color name="gray_100">#F3F4F6</color>
-    <color name="gray_50">#F9FAFB</color>
-
-    <!-- ألوان النص -->
-    <color name="gray_800">#1F2937</color>
-    <color name="gray_600">#4B5563</color>
+    <!-- Your exact HTML app colors -->
+    <color name="background_dark">#0B0B0B</color>        <!-- Pure black background -->
+    <color name="pink_primary">#FF99CC</color>           <!-- Your pink accent -->
+    <color name="pink_dark">#CC7AA3</color>              <!-- Darker pink for pressed states -->
+    <color name="text_primary">#F0F0F0</color>           <!-- White text -->
+    <color name="text_secondary">#AAAAAA</color>         <!-- Gray text for captions -->
+    <color name="card_background">#151517</color>        <!-- Slightly lighter black for cards -->
+    <color name="status_bar">#000000</color>             <!-- Pure black status bar -->
+    <color name="navigation_bar">#000000</color>         <!-- Pure black nav bar -->
 </resources>
