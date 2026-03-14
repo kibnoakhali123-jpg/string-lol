@@ -14,28 +14,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         
-        // Initialize WebView
+        // This line MUST match the ID in XML (R.id.webview)
         webView = findViewById(R.id.webview)
         
-        // Configure WebView settings
         val webSettings: WebSettings = webView.settings
         webSettings.javaScriptEnabled = true
         webSettings.domStorageEnabled = true
-        webSettings.loadWithOverviewMode = true
-        webSettings.useWideViewPort = true
-        webSettings.builtInZoomControls = false
-        webSettings.displayZoomControls = false
-        webSettings.allowFileAccess = true
-        webSettings.allowContentAccess = true
         
-        // Set WebViewClient to handle page navigation
         webView.webViewClient = WebViewClient()
-        
-        // Load your HTML file from assets
         webView.loadUrl("file:///android_asset/www/index.html")
     }
     
-    // Handle back button to navigate WebView history
     override fun onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack()
